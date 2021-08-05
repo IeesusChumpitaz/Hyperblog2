@@ -9,14 +9,24 @@ html{
 }
 
 main{
+    position: relative;
+    display: flex;
+    justify-content: center;
     width: 100vw;
     height: 100vh;
+    text-align: center;
     background-color: cyan;
     background:linear-gradient(to top right,#214f65,cyan) ;
-    text-align: center;
-    
 }
-main h1{
+.box{
+    position: absolute;
+    top:calc(50% - 150px);
+    margin: 0 auto;
+    width: 700px;
+    height: 400px;
+
+}
+.box h1{
     padding: 25px;
     padding-top: 50px;
     font-size: 2.8rem;
@@ -24,7 +34,7 @@ main h1{
     line-height: 2.8rem;
     color: deeppink;
 }
-main p{
+.box p{
     font-size: 1.9rem;
     font-weight: 600;
     line-height: 1.8rem;
