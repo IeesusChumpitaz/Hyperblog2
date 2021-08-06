@@ -17,12 +17,39 @@ body{
     background-color: cyan;
     background:linear-gradient(to top right,#214f65,cyan) ;
 }
+header{
+    position: relative;
+    width: 100vw;
+    height: 200px;
+}
+
+.menu-container{
+    position: absolute;
+    left: calc(50% - -90px);
+    width: 300px;
+    height: 150px;
+    padding-top: 140px;
+    margin: 0 auto;
+}
+.menu-container ul{
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+}
+.menu-container li{
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    list-style: none;
+    color: deeppink;
+}
 
 main{
 
     position: absolute;
     text-align: center;
-    top:calc(50% - 150px);
+    top:calc(50% - 140px);
     margin: 0 auto;
     width: 860px;
     height: 180px;
