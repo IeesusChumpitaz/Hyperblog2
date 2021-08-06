@@ -7,8 +7,7 @@ html{
     font-size: 62.5%;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-main{
+body{
     position: relative;
     display: flex;
     justify-content: center;
@@ -18,20 +17,38 @@ main{
     background-color: cyan;
     background:linear-gradient(to top right,#214f65,cyan) ;
 }
-.box{
+
+main{
+
     position: absolute;
     text-align: center;
     top:calc(50% - 150px);
     margin: 0 auto;
     width: 860px;
     height: 180px;
-    border: solid black 2px;
-    border-radius: 10px;
+    border: solid black 3px;
+    border-radius: 15px;
+}
+.cabecera{
+    text-align: start;
+    font-size: 2.2rem;
+    font-weight: 300;
+    line-height: 2.6rem;
+    color: black;
+    padding-top: 20px;
+    margin-left: 25px;
+}
+.box{
+    text-align: center;
+    margin: 0 auto;
+    width: 860px;
+    height: 110px;
+
 
 }
 .box h1{
     width: 860px;
-    padding-top: 50px;
+    padding-top: 20px;
     font-size: 3rem;
     font-weight: bold;
     line-height: 2.8rem;
