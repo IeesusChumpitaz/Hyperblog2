@@ -30,12 +30,16 @@ main{
     border-radius: 15px;
 }
 .cabecera{
+    display: flex;
     text-align: start;
     font-size: 2.2rem;
     font-weight: 300;
     line-height: 2.6rem;
     color: black;
     padding-top: 20px;
+    margin-left: 25px;
+}
+.cabecera span{
     margin-left: 25px;
 }
 .box{
@@ -57,7 +61,7 @@ main{
 .box p{
     font-size: 2rem;
     font-weight: 600;
-    line-height: 1.8rem;
+    line-height: 1.2rem;
     padding-bottom: 25px;
     padding-top: 25px;
     
