@@ -51,9 +51,10 @@ main{
     top:calc(50% - 140px);
     margin: 0 auto;
     width: 860px;
-    height: 180px;
+    height: 200px;
     border: solid rgb(233, 232, 232) 3px;
     border-radius: 15px;
+    box-shadow: black -2px 6px 50px 0px;
 }
 .cabecera{
     display: flex;
@@ -65,7 +66,14 @@ main{
     padding-top: 20px;
     margin-left: 25px;
 }
+.cabecera p{
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-shadow: black 1px 0px 14px;
+
+}
 .cabecera span{
+    padding: 1px;
     margin-left: 25px;
 }
 .box{
@@ -79,7 +87,7 @@ main{
 .box h1{
     width: 860px;
     padding-top: 20px;
-    font-size: 3rem;
+    font-size: 3.2rem;
     font-weight: bold;
     line-height: 2.8rem;
     color: rgb(233, 232, 232);
@@ -88,7 +96,7 @@ main{
     font-size: 2rem;
     font-weight: 600;
     line-height: 1.2rem;
-    padding-bottom: 25px;
+    padding-bottom: 0px;
     padding-top: 25px;
     color: rgb(233, 232, 232);   
     
