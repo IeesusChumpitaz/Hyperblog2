@@ -14,19 +14,45 @@ body{
     width: 100vw;
     height: 100vh;
     text-align: center;
-    background-color: cyan;
-    background:linear-gradient(to top right,#214f65,cyan) ;
+    background:linear-gradient(90deg,#4c4dc1,#5d0606) ;
+}
+header{
+    position: relative;
+    width: 100vw;
+    height: 200px;
+}
+
+.menu-container{
+    position: absolute;
+    left: calc(50% - -90px);
+    width: 300px;
+    height: 150px;
+    padding-top: 140px;
+    margin: 0 auto;
+}
+.menu-container ul{
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+}
+.menu-container li{
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    list-style: none;
+    color: blanchedalmond;
 }
 
 main{
 
     position: absolute;
     text-align: center;
-    top:calc(50% - 150px);
+    top:calc(50% - 140px);
     margin: 0 auto;
     width: 860px;
     height: 180px;
-    border: solid black 3px;
+    border: solid rgb(233, 232, 232) 3px;
     border-radius: 15px;
 }
 .cabecera{
@@ -35,7 +61,7 @@ main{
     font-size: 2.2rem;
     font-weight: 300;
     line-height: 2.6rem;
-    color: black;
+    color: rgb(233, 232, 232);
     padding-top: 20px;
     margin-left: 25px;
 }
@@ -56,7 +82,7 @@ main{
     font-size: 3rem;
     font-weight: bold;
     line-height: 2.8rem;
-    color: deeppink;
+    color: rgb(233, 232, 232);
 }
 .box p{
     font-size: 2rem;
@@ -64,6 +90,6 @@ main{
     line-height: 1.2rem;
     padding-bottom: 25px;
     padding-top: 25px;
-    
+    color: rgb(233, 232, 232);   
     
 }
