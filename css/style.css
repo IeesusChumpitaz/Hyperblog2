@@ -14,7 +14,7 @@ body{
     width: 100vw;
     height: 100vh;
     text-align: center;
-    background:linear-gradient(90deg,#4c4dc1,#5d0606) ;
+    background:linear-gradient(80deg,#393a9b,#0f0505 75%) ;
 }
 header{
     position: relative;
