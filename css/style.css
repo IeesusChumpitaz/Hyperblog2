@@ -8,9 +8,12 @@ html{
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
+    /* SE LE AGREGO ESTILOS DE flex-direction: COLUMN Y SE LE PUSO SPACE-BETWEEN PARA QUE SE PUEDA ACOMODAR MEJOR 
+    EL LAYOUT DE LA PAGINA YA QUE CON LOS ESTILSO ANTERIORES GENERABA CONFLICTOS EN EL LAYOUT */
     position: relative;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     width: 100vw;
     height: 100vh;
     text-align: center;
@@ -45,10 +48,8 @@ header{
 }
 
 main{
-
-    position: absolute;
+    /* se le quito los estilos de position: absolute y el de top:cal() ya que generaban conflictos y sOLO SE LE AGREGO MARGIN */
     text-align: center;
-    top:calc(50% - 140px);
     margin: 0 auto;
     width: 860px;
     height: 200px;
@@ -56,7 +57,9 @@ main{
     border: solid rgba(233, 232, 232, 0.171) 3px; 
     border-radius: 20px;
     box-shadow: black -2px 6px 50px 0px;
+    margin-bottom: 100px;
 }
+
 .cabecera{
     display: flex;
     text-align: start;
@@ -101,4 +104,24 @@ main{
     padding-top: 25px;
     color: rgb(233, 232, 232);   
     
+}
+/* ESTILOS DEL FOOTER */
+
+footer{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100px;
+    
+}
+.footer-mensaje{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 3rem;
+    color: whitesmoke;
+
 }
