@@ -27,7 +27,18 @@ header{
     width: 100vw;
     height: 200px;
 }
-
+.logo{
+    /* SE LE AGREGO UN LOGO AL HEADER  */
+    position: absolute;
+    left: calc(50% - 361px);
+    width: 60px;
+    height: 60px;
+    background-image: url(../assets/icons/luna.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 140px;
+}
 .menu-container{
     position: absolute;
     left: calc(50% - -90px);
