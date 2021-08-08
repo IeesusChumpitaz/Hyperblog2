@@ -6,8 +6,8 @@ Mi 2 blog increible para el [Curso de Git y Github](https://platzi.com/curso/git
 >nota:  mejore bastante con los otros cursos y ahora viendo mi primer blog de practica veo la diferencia veamso que mas le hago con el tiempo a este blog.
 
 
-###recordatorio:
-**Este Readme.md es un chiste **
+### recordatorio:
+**Este Readme.md es un chiste**
 
 ------------
 
