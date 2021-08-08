@@ -17,7 +17,10 @@ body{
     width: 100vw;
     height: 100vh;
     text-align: center;
-    background:linear-gradient(80deg,#393a9b,#0f0505 75%) ;
+    background:linear-gradient(80deg, rgba(57, 58, 155, 0.9), rgba(15, 5, 5, 0.9)), url(https://i.pinimg.com/originals/97/e4/25/97e425fd8549c189a63d4860c5fd6fee.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 header{
     position: relative;
