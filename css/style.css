@@ -76,7 +76,7 @@ main{
 
 .cabecera{
     display: flex;
-    text-align: start;
+    text-align: center;
     font-size: 2.2rem;
     font-weight: 300;
     line-height: 2.6rem;
