@@ -1,0 +1,58 @@
+body{
+background: linear-gradient(80deg, rgba(57, 58, 155, 0.9), rgba(15, 5, 5, 0.9)), url(https://i.pinimg.com/originals/88/ca/85/88ca8568af14950b1f697117a394b1f5.jpg);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    margin: 44px 0px 0px 20px;
+}
+.menu-container{
+    left: calc(50% - 70px);
+    width: 200px;
+    padding-top: 45px;   
+}
+.menu-container ul{
+    height: 100px;
+    justify-content: space-between;
+}
+.menu-container li{
+    font-size: 1.8rem;
+}
+main{
+    margin: 0px auto 100px auto;
+    width: 300px;
+    height: 500px;
+    background-color: rgba(20, 20, 49 / 32%);
+}
+.cabecera{
+    flex-direction: column;
+    margin-left: none;
+}
+.cabecera p {
+    margin-bottom: 10px;
+}
+.cabecera span {
+    margin-left: none;
+    margin-bottom: 10px;
+}
+.box{
+    width: 280px;
+    height: 300px;
+}
+.box h1{
+    width: 280px;
+    font-size: 2.8rem;
+    line-height: 3.2rem;
+}
+.box p {
+    line-height: 2.8rem;
+}
+.footer-mensaje{
+    font-size: 2rem;
+}
+   
