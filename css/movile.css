@@ -31,17 +31,17 @@ main{
     margin: 0px auto 100px auto;
     width: 300px;
     height: 500px;
-    background-color: rgba(20, 20, 49 / 32%);
+    background-color: rgba(20, 20, 49, 0.185);
 }
 .cabecera{
     flex-direction: column;
-    margin-left: none;
+    margin-left: 0;
 }
 .cabecera p {
     margin-bottom: 10px;
 }
 .cabecera span {
-    margin-left: none;
+    margin-left: 0;
     margin-bottom: 10px;
 }
 .box{
